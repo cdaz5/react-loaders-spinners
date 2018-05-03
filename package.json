@@ -1,0 +1,52 @@
+{
+	"name": "react-loaders-spinners",
+	"version": "0.1.0",
+	"description": "A simple react library with various loaders and spinners.",
+	"main": "lib/index.js",
+	"repository": "git@github.com:cdaz5/react-loaders-spinners.git",
+	"author": "Chris Dascoli <chris.dascoli@gmail.com> (https://cdaz5.github.io/portfolio/)",
+	"license": "MIT",
+	"keywords": [
+		"components",
+		"ui",
+		"react",
+		"styled-components",
+		"loaders",
+		"spinners",
+		"component library"
+	],
+	"scripts": {
+		"build": "babel src -d lib",
+		"lint": "eslint src",
+		"precommit": "npm run lint && npm run test",
+		"prepublish": "npm run lint && npm run test && babel src -d lib",
+		"test": "jest"
+	},
+	"peerDependencies": {
+		"prop-types": "^15.6.0",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"styled-components": "^3.1.6"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.2.3",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"babel-register": "^6.26.0",
+		"enzyme": "^3.3.0",
+		"enzyme-adapter-react-16": "^1.1.1",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-plugin-import": "^2.11.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-react": "^7.7.0",
+		"jest": "^22.4.3",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-test-renderer": "^16.2.0",
+		"styled-components": "^3.2.0"
+	}
+}
