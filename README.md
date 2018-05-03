@@ -2,6 +2,10 @@
 
 A component-based loaders/spinners React library, built with `styled-components`.
 
+**Demo**
+
+Check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
+
 ### Why should you use this?
 
 If you need highly customizable loader(s) or spinner(s) in your React project.
