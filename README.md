@@ -51,4 +51,4 @@ const App = () => (
 ```
 ## Contributing
 
-I'd love to get some feedback and contribution from the community. Feel free to file an issue, create a pull request, or leave some feedback as to how you think this project can be improved! Demo page will be added shortly along with more spinners/loaders.
+I'd love to get some feedback and contribution from the community. Feel free to file an issue, create a pull request, or leave some feedback as to how you think this project can be improved! More loaders/spinners to be added soon!
