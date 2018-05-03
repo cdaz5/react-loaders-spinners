@@ -10,6 +10,7 @@
 		"comma-dangle": ["error", "only-multiline"],
 		"no-confusing-arrow": 0,
     "react/jsx-filename-extension": 0,
-    "no-tabs": 0
+    "no-tabs": 0,
+    "react/default-props-match-prop-types": 0
 	}
 }

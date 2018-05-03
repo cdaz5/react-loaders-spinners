@@ -2,6 +2,8 @@
 
 exports[`PulseLoader matches snapshot 1`] = `
 <div
-  className="sc-bdVaJa jlhwAi"
+  className="sc-bdVaJa hYUxID"
+  height={100}
+  width={100}
 />
 `;

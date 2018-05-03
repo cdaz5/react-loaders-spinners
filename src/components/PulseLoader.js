@@ -42,9 +42,17 @@ const PulseLoader = styled.div`
 PulseLoader.propTypes = {
   width: number,
   height: number,
-  loading: bool,
+  loading: bool.isRequired,
   pColor: string,
   sColor: string
+};
+
+PulseLoader.defaultProps = {
+  width: 100,
+  height: 100,
+  pColor: 'red',
+  sColor: 'red',
+  loading: true
 };
 
 export default PulseLoader;
