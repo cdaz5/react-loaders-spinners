@@ -1,6 +1,4 @@
-<p align="center">
-  React Loaders Spinners
-</p>
+  ##React Loaders Spinners
 
 A component-based loaders/spinners React library, built with `styled-components`.
 
@@ -29,12 +27,12 @@ const App = () => (
 )
 ```
 
-**Available Props/Defaults/Types**
+##**Available Props/Defaults/Types**
 
-|  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int |   loading:int    |
-| ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ---------------- |
-|    PulseLoader   |     100    |    100    |     red    |     red    |                  |   true *required |
-|   BounceyLoader  |     20     |    20     |     red    |            |        20        |   true *required |
+|  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int |   loading:bool    |
+| ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ----------------- |
+|    PulseLoader   |     100    |    100    |     red    |     red    |                  |   true *required  |
+|   BounceyLoader  |     20     |    20     |     red    |            |        20        |   true *required  | 
 
 
 ```javascript
