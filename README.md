@@ -35,9 +35,9 @@ const App = () => (
 
 |  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int | thickness:int | loading:bool |
 | ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ------------- | ------------ |
-|    PulseLoader   |     100    |    100    |     red    |     red    |                  |               |   true *req  |
-|   BounceyLoader  |     20     |    20     |     red    |            |        20        |               |   true *req  |
-|    SpinLoader    |     50     |    50     |   #f3f3f3  |    #555    |                  |      10       |   true *req  |
+|    PulseLoader   |     100    |    100    |    #555    |   #f3f3f3  |                  |               |   true *req  |
+|   BounceyLoader  |     20     |    20     |    #555    |            |        20        |               |   true *req  |
+|    SpinLoader    |     50     |    50     |    #555    |   #f3f3f3  |                  |      10       |   true *req  |
 
 
 ```javascript
@@ -45,8 +45,8 @@ const App = () => (
   <PulseLoader 
     width={200}
     height={200}
-    pColor='#000'
-    sColor='lightgray'
+    pColor='dodgerblue'
+    sColor='#FF711E'
   />
 ```
 ## Contributing

@@ -21,7 +21,7 @@ const BounceLoader = styled.div`
 		width: ${props => (props.width ? `${props.width}px` : '20px')};
 		height: ${props => (props.height ? `${props.height}px` : '20px')};
 		border-radius: 50%;
-		background: ${props => (props.pColor ? props.pColor : 'red')};
+		background: ${props => (props.pColor ? props.pColor : '#555')};
 
 		&:nth-child(1) {
 			animation: ${bounce} 1s ease-in-out infinite;
@@ -60,7 +60,7 @@ BounceyLoader.propTypes = {
 BounceyLoader.defaultProps = {
   width: 20,
   height: 20,
-  pColor: 'red',
+  pColor: '#555',
   loading: true,
   spaceBetween: 10
 };

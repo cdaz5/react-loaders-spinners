@@ -23,7 +23,7 @@ const PulseLoader = styled.div`
 		display: block;
 		width: ${props => (props.width ? `${props.width}px` : '100px')};
 		height: ${props => (props.height ? `${props.height}px` : '100px')};
-		background: ${props => (props.pColor ? props.pColor : 'red')};
+		background: ${props => (props.pColor ? props.pColor : '#555')};
 		border-radius: 50%;
 		animation: ${pulse} 3s linear infinite;
 	}
@@ -33,7 +33,7 @@ const PulseLoader = styled.div`
 		position: absolute;
 		width: ${props => (props.width ? `${props.width}px` : '100px')};
 		height: ${props => (props.height ? `${props.height}px` : '100px')};
-		background: ${props => (props.sColor ? props.sColor : 'red')};
+		background: ${props => (props.sColor ? props.sColor : '#f3f3f3')};
 		border-radius: 50%;
 		animation: ${pulse} 2.3s linear infinite;
 	}
@@ -50,8 +50,8 @@ PulseLoader.propTypes = {
 PulseLoader.defaultProps = {
   width: 100,
   height: 100,
-  pColor: 'red',
-  sColor: 'red',
+  pColor: '#555',
+  sColor: '#f3f3f3',
   loading: true
 };
 
