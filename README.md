@@ -27,22 +27,22 @@ import React from 'react';
 import { BounceyLoader } from 'react-loaders-spinners';
 
 const App = () => (
-  <BounceyLoader loading />
+  <BounceyLoader />
 )
 ```
 
 ## **Available Props/Defaults/Types**
 
-|  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int |   loading:bool    |
-| ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ----------------- |
-|    PulseLoader   |     100    |    100    |     red    |     red    |                  |   true *required  |
-|   BounceyLoader  |     20     |    20     |     red    |            |        20        |   true *required  | 
+|  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int | thickness:int | loading:bool |
+| ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ------------- | ------------ |
+|    PulseLoader   |     100    |    100    |     red    |     red    |                  |               |   true *req  |
+|   BounceyLoader  |     20     |    20     |     red    |            |        20        |               |   true *req  |
+|    SpinLoader    |     50     |    50     |   #f3f3f3  |    #555    |                  |      10       |   true *req  |
 
 
 ```javascript
   // props example
   <PulseLoader 
-    loading
     width={200}
     height={200}
     pColor='#000'

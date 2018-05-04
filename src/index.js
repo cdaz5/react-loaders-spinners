@@ -1,1 +1,1 @@
-export { BounceyLoader, PulseLoader } from './components';
+export { BounceyLoader, PulseLoader, SpinLoader } from './components';

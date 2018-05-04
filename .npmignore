@@ -3,6 +3,7 @@ demo
 .babelrc
 .DS_Store
 .eslintrc
+.eslintignore
 package-lock.json
 tests
 .gitignore

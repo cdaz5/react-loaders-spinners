@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpinLoader matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa cIUElR"
+  height={50}
+  width={50}
+/>
+`;
