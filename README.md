@@ -1,6 +1,6 @@
 ## React Loaders Spinners
 
-A component-based loaders/spinners React library, built with `styled-components`.
+A component-based loaders/spinners React library, built with [`styled-components`](https://github.com/styled-components/styled-components).
 
 **Demo**
 
