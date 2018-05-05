@@ -31,22 +31,29 @@ const App = () => (
 )
 ```
 
-## **Available Props/Defaults/Types**
+## Available Props/Defaults/Types
 
-|  Loader/Spinner  | height:int | width:int | pColor:str | sColor:str | spaceBetween:int | thickness:int | loading:bool |
-| ---------------- | ---------- | --------- | ---------- | ---------- | ---------------- | ------------- | ------------ |
-|    PulseLoader   |     100    |    100    |    #555    |   #f3f3f3  |                  |               |   true *req  |
-|   BounceyLoader  |     20     |    20     |    #555    |            |        20        |               |   true *req  |
-|    SpinLoader    |     50     |    50     |    #555    |   #f3f3f3  |                  |      10       |   true *req  |
+**Standard Default Props For ALL Loaders**
+|     prop     |  default  |
+| ------------ | --------- |
+| pColor:str   |  #555     |
+| loading:bool | true *req |
 
+|  Loader/Spinner  | height:int | width:int | sColor:str | spaceBetween:int | thickness:int |
+| ---------------- | ---------- | --------- | ---------- | ---------------- | ------------- |
+|    PulseLoader   |     100    |    100    |   #f3f3f3  |                  |               |
+|   BounceyLoader  |     20     |    20     |            |        20        |               |
+|    SpinLoader    |     50     |    50     |   #f3f3f3  |                  |      10       |
+|    BoxLoader     |     100    |    100    |            |                  |               |
+|   JamminLoader   |            |           |            |                  |      10       |
 
 ```javascript
   // props example
   <PulseLoader 
     width={200}
     height={200}
-    pColor='dodgerblue'
-    sColor='#FF711E'
+    pColor='dodgerblue' // can use hex or named color
+    sColor='#FF711E' // can use hex or named color
   />
 ```
 ## Contributing
