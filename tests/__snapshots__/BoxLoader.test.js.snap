@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoxLoader matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa gtRwnl"
+  height={100}
+  width={100}
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

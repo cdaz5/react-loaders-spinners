@@ -34,10 +34,13 @@ const App = () => (
 ## Available Props/Defaults/Types
 
 **Standard Default Props For ALL Loaders**
+
 |     prop     |  default  |
 | ------------ | --------- |
 | pColor:str   |  #555     |
 | loading:bool | true *req |
+
+**Additional Available Props**
 
 |  Loader/Spinner  | height:int | width:int | sColor:str | spaceBetween:int | thickness:int |
 | ---------------- | ---------- | --------- | ---------- | ---------------- | ------------- |
