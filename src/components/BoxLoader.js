@@ -19,14 +19,14 @@ const fadeInOut = keyframes`
 
 const Box = styled.div`
   position: relative;
-  display: ${props => props.loading ? 'flex' : 'none'};
-  width: ${props => props.width ? `${props.width}px` : '100px'};
-  height: ${props => props.height ? `${props.height}px` : '100px'};
+  display: ${props => (props.loading ? 'flex' : 'none')};
+  width: ${props => (props.width ? `${props.width}px` : '100px')};
+  height: ${props => (props.height ? `${props.height}px` : '100px')};
 
     div {
       width: 45%;
       height: 45%;
-      background: ${props => props.pColor ? `${props.pColor}` : '#555'}
+      background: ${props => (props.pColor ? `${props.pColor}` : '#555')}
       opacity: 0;
       filter: blur(1px);
       animation: ${fadeInOut} 1s linear infinite;
@@ -70,7 +70,7 @@ BoxLoader.propTypes = {
   width: number,
   height: number,
   loading: bool.isRequired,
-  pColor: string,
+  pColor: string
 };
 
 BoxLoader.defaultProps = {

@@ -28,8 +28,7 @@ const grow2 = keyframes`
 
 const Jammin = styled.div`
 	display: ${props => (props.loading ? 'flex' : 'none')};
-	position: fixed;
-	margin: auto;
+	position: relative;
 	left: 0;
 	right: 0;
 	top: 50 %;

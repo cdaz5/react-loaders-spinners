@@ -17,7 +17,7 @@ yarn add react-loaders-spinners
 ```
 or
 ```
-npm install react-loaders-spinners
+npm i react-loaders-spinners
 ```
 
 Note that `react-loaders-spinners` lists `styled-components` as a `peerDependency`, therefore it expects you to have `styled-components` already installed in your project.
