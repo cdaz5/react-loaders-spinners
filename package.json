@@ -1,6 +1,6 @@
 {
 	"name": "react-loaders-spinners",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "A simple react library with various loaders and spinners.",
 	"main": "lib/index.js",
 	"repository": "git@github.com:cdaz5/react-loaders-spinners.git",
