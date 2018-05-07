@@ -1,1 +1,8 @@
-export { BounceyLoader, PulseLoader, SpinLoader, BoxLoader, JamminLoader } from './components';
+export {
+  BounceyLoader,
+  PulseLoader,
+  SpinLoader,
+  BoxLoader,
+  JamminLoader,
+  ContentLoader
+} from './components';
