@@ -42,14 +42,14 @@ const App = () => (
 
 **Additional Available Props**
 
-|  Loader/Spinner  | height:int | width:int | sColor:str | spaceBetween:int | thickness:int | rows:int | lineHeight:int |
-| ---------------- | ---------- | --------- | ---------- | ---------------- | ------------- | -------- | -------------- |
-|    PulseLoader   |     100    |    100    |   #f3f3f3  |                  |               |          |                |
-|   BounceyLoader  |     20     |    20     |            |        20        |               |          |                |
-|    SpinLoader    |     50     |    50     |   #f3f3f3  |                  |      10       |          |                |
-|    BoxLoader     |     100    |    100    |            |                  |               |          |                |
-|   JamminLoader   |            |           |            |                  |      10       |          |                |
-|   ContentLoader  |            | *200 *req |            |                  |               | *4 *req  |       20       |
+|  Loader/Spinner  | height:int | width:int  | sColor:str | spaceBetween:int | thickness:int | rows:int | lineHeight:int |
+| ---------------- | ---------- | ---------- | ---------- | ---------------- | ------------- | -------- | -------------- |
+|    PulseLoader   |     100    |    100     |   #f3f3f3  |                  |               |          |                |
+|   BounceyLoader  |     20     |    20      |            |        20        |               |          |                |
+|    SpinLoader    |     50     |    50      |   #f3f3f3  |                  |      10       |          |                |
+|    BoxLoader     |     100    |    100     |            |                  |               |          |                |
+|   JamminLoader   |            |            |            |                  |      10       |          |                |
+|   ContentLoader  |            | *200 *req  |            |                  |               | *4 *req  |       20       |
 
 **PLEASE NOTE:** For `ContentLoader` `width` refers to the parent containers width (in px cannot be %).  It will
 work without a width however the animation will be off slightly. A use case would be:
