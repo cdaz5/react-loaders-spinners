@@ -51,8 +51,7 @@ const App = () => (
 |   JamminLoader   |            |            |            |                  |      10       |          |                |
 |   ContentLoader  |            | *200 *req  |            |                  |               | *4 *req  |       20       |
 
-**PLEASE NOTE:** For `ContentLoader` `width` refers to the parent containers width (in px cannot be %).  It will
-work without a width however the animation will be off slightly. A use case would be:
+**PLEASE NOTE:** For `ContentLoader` `width` refers to the parent containers width (in px cannot be %).  It will work without a width however the animation will be off slightly. It is the only loader that `width` does not refer to the actual loaders `width`. A use case would be:
 ```javascript
   // ContentLoader example
   <div style={{ width: '500px' }}>
