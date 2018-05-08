@@ -1,6 +1,6 @@
 {
 	"name": "react-loaders-spinners",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"description": "A simple react library with various loaders and spinners.",
 	"main": "lib/index.js",
 	"repository": "git@github.com:cdaz5/react-loaders-spinners.git",
@@ -13,7 +13,9 @@
 		"styled-components",
 		"loaders",
 		"spinners",
-		"component library"
+		"component library",
+		"css",
+		"css3"
 	],
 	"scripts": {
 		"build": "babel src -d lib",

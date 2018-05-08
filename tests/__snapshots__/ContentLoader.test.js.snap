@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentLoader matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa huGOCs"
+  width={200}
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;

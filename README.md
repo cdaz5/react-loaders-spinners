@@ -1,10 +1,12 @@
+<p align="center">
+  <img src="src/images/react-loaders-spinners.png" alt="React-Loaders-Spinners" title="React-Loaders-Spinners" width="472" height="251" />
+</p>
+
 ## React Loaders Spinners
 
 A component-based loaders/spinners React library, built with [`styled-components`](https://github.com/styled-components/styled-components).
 
-**Demo**
-
-Check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
+[**Demo**](https://codesandbox.io/s/2prqo9p5wn) - check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
 
 ### Why should you use this?
 
@@ -42,13 +44,26 @@ const App = () => (
 
 **Additional Available Props**
 
-|  Loader/Spinner  | height:int | width:int | sColor:str | spaceBetween:int | thickness:int |
-| ---------------- | ---------- | --------- | ---------- | ---------------- | ------------- |
-|    PulseLoader   |     100    |    100    |   #f3f3f3  |                  |               |
-|   BounceyLoader  |     20     |    20     |            |        20        |               |
-|    SpinLoader    |     50     |    50     |   #f3f3f3  |                  |      10       |
-|    BoxLoader     |     100    |    100    |            |                  |               |
-|   JamminLoader   |            |           |            |                  |      10       |
+|  Loader/Spinner  | height:int | width:int | sColor:str | spaceBetween:int | thickness:int | rows:int | lineHeight:int |
+| ---------------- | ---------- | --------- | ---------- | ---------------- | ------------- | -------- | -------------- |
+|    PulseLoader   |     100    |    100    |   #f3f3f3  |                  |               |          |                |
+|   BounceyLoader  |     20     |    20     |            |        20        |               |          |                |
+|    SpinLoader    |     50     |    50     |   #f3f3f3  |                  |      10       |          |                |
+|    BoxLoader     |     100    |    100    |            |                  |               |          |                |
+|   JamminLoader   |            |           |            |                  |      10       |          |                |
+|   ContentLoader  |            | 200 *req  |            |                  |               | 4 *req   |       20       |
+
+**PLEASE NOTE:** For `ContentLoader` `width` refers to the parent container's `width` (in `px` cannot be %).  It will work without a `width` however the animation will be off slightly. It is the only loader where `width` does not refer to the actual loader's `width`. A use case would be:
+```javascript
+  // ContentLoader example
+  <div style={{ width: '500px' }}>
+    <ContentLoader 
+      width={500}
+      rows={8}
+      lineHeight={28}
+    />
+  </div>
+```
 
 ```javascript
   // props example
