@@ -13,7 +13,9 @@
 		"styled-components",
 		"loaders",
 		"spinners",
-		"component library"
+		"component library",
+		"css",
+		"css3"
 	],
 	"scripts": {
 		"build": "babel src -d lib",
