@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="src/images/react-loaders-spinners.png" alt="React-Loaders-Spinners" title="React-Loaders-Spinners" width="472" height="251" />
+</p>
+
 ## React Loaders Spinners
 
 A component-based loaders/spinners React library, built with [`styled-components`](https://github.com/styled-components/styled-components).
 
-[**Demo**](https://codesandbox.io/s/2prqo9p5wn) Check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
+[**Demo**](https://codesandbox.io/s/2prqo9p5wn) - check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
 
 ### Why should you use this?
 
