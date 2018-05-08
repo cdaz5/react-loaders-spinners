@@ -2,7 +2,7 @@
 
 A component-based loaders/spinners React library, built with [`styled-components`](https://github.com/styled-components/styled-components).
 
-**Demo**
+[**Demo**](https://codesandbox.io/s/2prqo9p5wn)
 
 Check out and play around with the examples [here](https://codesandbox.io/s/2prqo9p5wn).
 
